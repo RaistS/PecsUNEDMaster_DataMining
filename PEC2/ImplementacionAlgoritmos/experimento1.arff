@@ -1,0 +1,36 @@
+% experimento1
+% Number of attributes including class: 6
+% Number of classes: 2
+% Number of instances: 16
+
+
+@RELATION experimento1
+
+
+@ATTRIBUTE 	X1	{0,1}
+@ATTRIBUTE 	X2	{0,1}
+@ATTRIBUTE 	X3	{0,1}
+@ATTRIBUTE 	X4	{0,1}
+@ATTRIBUTE 	X5	{0,1}
+@ATTRIBUTE classY  {0,1}
+
+@DATA
+0,0,0,0,0,0
+0,0,1,1,0,1
+0,1,0,1,0,1
+0,1,1,0,0,0
+1,0,0,0,0,1
+1,0,1,1,0,0
+1,1,0,1,0,0
+1,1,1,0,0,1
+0,0,0,0,1,0
+0,0,1,1,1,1
+0,1,0,1,1,1
+0,1,1,0,1,0
+1,0,0,0,1,1
+1,0,1,1,1,0
+1,1,0,1,1,0
+1,1,1,0,1,1
+%
+%
+
